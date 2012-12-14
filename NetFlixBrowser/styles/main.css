@@ -1,26 +1,34 @@
-body
+
+#movieTitleView
+h4
 {
-    font: Arial, sans-serif;
+	display: inline-block;
+	font-size: 1.1em;
+	margin: 1em 0 .5em 1em;
 }
 
-.buttonArea,
-.footerText,
-#geoLocationContainer,
-#helloWorldInput,
-#helloWorldText
+#movieTitleView
+img
 {
-    text-align: center;
+	float: left;
+	width: 4em;
+	height: 4em;
+	margin: 0;
+	-webkit-box-shadow: 0 1px 3px #333;
+	box-shadow: 0 1px 3px #333;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
+}
+#movieDetailView
+img
+{
+	float: none;
+	width: 15em;
+	height: 12em;
+	margin: 0;
+	-webkit-box-shadow: 0 1px 3px #333;
+	box-shadow: 0 1px 3px #333;
+	-webkit-border-radius: 8px;
+	border-radius: 8px;
 }
 
-#txtName
-{
-    border: 1px solid #AAA;
-    border-radius: 15px;
-    position:static;
-    margin-left: 1em;
-    margin-top: 0.3em;
-    margin-bottom: 0.3em;
-    background:white;
-    color: black;
-    padding: 7px;
-}
